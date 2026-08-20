@@ -15,12 +15,11 @@ Area=21, Perimeter=20
 */
 
 #include <stdio.h>
-int main()
-{
+int main(){
     int length;
     int breadth;
     int area;
-    int peri;
+    int perimeter;
 
     printf("Enter Lenght: ");
     scanf("%d",&length);
@@ -28,8 +27,8 @@ int main()
     scanf("%d",&breadth);
 
     area = length * breadth;
-    peri = 2*(length+breadth);
+    perimeter = 2*(length+breadth);
 
-    printf("Area=%d\n, Perimeter=%d",area , peri);
+    printf("Area=%d, Perimeter=%d",area , perimeter);
     return 0;
 }
