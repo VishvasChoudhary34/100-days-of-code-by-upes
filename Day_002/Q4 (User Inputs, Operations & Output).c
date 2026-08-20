@@ -4,7 +4,7 @@
 Sample Test Cases:
 Input 1:
 7
-Output 1:
+Output 1 :
 Area=153.94  , Circumference=43.96
 
 Input 2:
