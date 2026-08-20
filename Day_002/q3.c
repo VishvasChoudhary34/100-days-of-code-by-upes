@@ -19,7 +19,7 @@ int main(){
     int length;
     int breadth;
     int area;
-    int perimeter;
+    int peri;
 
     printf("Enter Lenght: ");
     scanf("%d",&length);
@@ -27,8 +27,9 @@ int main(){
     scanf("%d",&breadth);
 
     area = length * breadth;
-    perimeter = 2*(length+breadth);
+    peri = 2*(length+breadth);
 
-    printf("Area=%d, Perimeter=%d",area , perimeter);
+    printf("Area=%d\n, Perimeter=%d",area , peri);
     return 0;
 }
+
